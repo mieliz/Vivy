@@ -7,7 +7,7 @@ class AssistantP:
     def __init__(self, chatGPT: Kokoro):
         self.chatGPT = chatGPT
 
-    def run(self, save_foldername, keyword ='hey', useEL = False, usewhisper = False, timeout = 5):
+    def run(self, save_foldername, keyword ='me', useEL = False, usewhisper = False, timeout = 5):
         '''
         Nearly identical to assistant, but maintains a persistent (p) memory of the conversation.  This means
         when it timesout after 5 seconds, it will maintain memory of the current conversation up until you restart
@@ -24,7 +24,7 @@ class AssistantP:
         while True:
             beep()
             self.chatGPT.start_conversation(keyword = keyword)
-            self.chatGPT.generate_voice("I'm listening.", useEL)
+            self.chatGPT.generate_voice("May ChatGPT who has enlghtened every heart, help you to know your sins and trust in it's mercy. ,What would you like to confess to me my child?, I'm listening.", useEL)
             suffix = save_conversation(self.chatGPT.messages, save_foldername)
             start_time = time.time()
 

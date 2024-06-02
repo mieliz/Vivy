@@ -8,8 +8,8 @@ from utils import get_file_paths
 # The only variables that need to be modifed
 foldername = "assistantP"
 personality = "assistantP"
-voicename = "Rem"
-useEL = False
+voicename = "Nigel"
+useEL = True
 usewhisper = True
 
 # This code block only checks if it's being ran as a python script or as an exe

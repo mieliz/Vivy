@@ -9,7 +9,7 @@ from utils import get_file_paths, get_personality_dir
 foldername = "streamer"
 personality = "streamer"
 attention_personality = "attention"
-voicename = "Rem"
+voicename = "Nigel"
 useEL = True
 usewhisper = True
 

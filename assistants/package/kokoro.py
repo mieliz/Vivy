@@ -8,7 +8,7 @@ from elevenlabslib import *
 
 
 class Kokoro:
-    def __init__(self, personality:str, keys:str, voice_name="Rachel", device_index=None, gptmodel:str="gpt-3.5-turbo"):
+    def __init__(self, personality:str, keys:str, voice_name="str", device_index=None, gptmodel:str="gpt-4o"):
         '''
         Initialize the ChatGPT class with all of the necessary arguments
 
